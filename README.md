@@ -56,12 +56,8 @@ This project is a **UI-only implementation** of a Role and User Management syste
    npm install
 4. **Start the Application**
    ```bash
-      npm start
+   npm start
 5. **Login Credentials**
    ```bash
-      username - admin
-      password - admin123
-
-
-
-
+   username - admin
+   password - admin123
