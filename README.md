@@ -52,10 +52,16 @@ This project is a **UI-only implementation** of a Role and User Management syste
    cd role-user-management-ui
 
 2. **Install Dependencies**
-     npm install
-3. **Start the Application**
+   ```bash
+   npm install
+4. **Start the Application**
+   ```bash
       npm start
-This will start the React application and serve it at http://localhost:3000
+5. **Login Credentials**
+   ```bash
+      username - admin
+      password - admin123
+
 
 
 
