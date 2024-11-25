@@ -1,0 +1,92 @@
+.role-management-container {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-role, .edit-role {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .add-role input,
+  .edit-role input {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .add-role button,
+  .edit-role button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .add-role button:hover,
+  .edit-role button:hover {
+    background-color: #218838;
+  }
+  
+  .role-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .role-list table th, .role-list table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .role-list table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .role-list table td button {
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .role-list table td button:nth-child(1) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .role-list table td button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .role-list table td button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Style for Permissions Section */
+  label {
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
