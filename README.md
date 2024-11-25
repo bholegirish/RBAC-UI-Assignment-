@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Role and User Management UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **UI-only implementation** of a Role and User Management system. The interface is designed to provide functionalities for administrators to manage users, roles, and their associated permissions.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Management
+- **View Users**: Displays a list of users in a tabular format, including fields for:
+  - ID
+  - Name
+  - Email
+  - Role
+  - Active/Inactive status (with a toggle button)
+- **Actions on Users**:
+  - Edit: Modify user details such as name, email, or role.
+  - Delete: Remove a user from the list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Role Management
+- **View Roles**: Displays a list of all roles with their associated permissions.
+- **Create/Edit Roles**:
+  - Create new roles (e.g., "Admin", "Moderator") with specific permissions.
+  - Edit existing roles, including updating permissions dynamically.
+- **Delete Roles**: Remove a role, ensuring the interface warns about its potential association with users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Permissions Management
+- **Dynamic Permissions Assignment**:
+  - Permissions (e.g., Read, Write, Delete) are displayed using user-friendly checkboxes or toggles.
+  - Admins can dynamically assign or modify permissions for roles.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+### Frontend
+- **React.js**: For building the user interface.
+- **CSS**: Custom styling to create a responsive and user-friendly design.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Run the Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Install **Node.js** and **npm** on your system.
 
-### `npm run eject`
+### Steps to Run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd role-user-management-ui
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install Dependencies**
+     npm install
+3. **Start the Application**
+      npm start
+This will start the React application and serve it at http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
